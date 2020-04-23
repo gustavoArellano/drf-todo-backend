@@ -11,7 +11,7 @@ def apiOverview(request):
         'List': '/task-list/',
         'Detail View': '/task-detail/<str:pk>/',
         'Create': '/task-create/',
-        'Update': '/taks-update/<str:pk>/',
+        'Update': '/task-update/<str:pk>/',
         'Delete': '/task-delete/<str:pk>/'
     }
     return Response(api_urls)
